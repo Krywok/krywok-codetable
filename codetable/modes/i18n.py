@@ -1,4 +1,4 @@
-from hetman_kit_localize import Localize
+from krywok_kit_localize import Localize
 
 from codetable.core.code import Code
 

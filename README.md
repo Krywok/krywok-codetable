@@ -1,16 +1,16 @@
-<img src="https://hetman.app/svg/logo/full-white-text.svg" alt="Hetman Logo" width="200" height="38" />
+<img src="https://krywok.com/svg/logo/full-white-text.svg" alt="Krywok Logo" width="200" height="38" />
 
-**Hetman Codetable** provides centralized, standardized response codes for APIs and applications. It ensures consistency by treating codes as a single source of truth.
+**Krywok Codetable** provides centralized, standardized response codes for APIs and applications. It ensures consistency by treating codes as a single source of truth.
 
 ## Installation
 
 ```bash
-pip install hetman-codetable
+pip install krywok-codetable
 ```
 
 ## Why use this?
 
-Managing response codes and messages across an application can become chaotic. **Hetman Codetable** allows you to:
+Managing response codes and messages across an application can become chaotic. **Krywok Codetable** allows you to:
 
 1.  **Centralize** all your application codes and messages in one place.
 2.  **Standardize** API responses with consistent error codes and messages.
