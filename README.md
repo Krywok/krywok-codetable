@@ -1,4 +1,4 @@
-<img src="https://krywok.com/svg/logo/full-white-text.svg" alt="Krywok Logo" width="200" height="38" />
+<img src="https://krywok.com/svg/logo/full-mix-white-alpha.svg" alt="Krywok Logo" width="190" height="55" />
 
 **Krywok Codetable** provides centralized, standardized response codes for APIs and applications. It ensures consistency by treating codes as a single source of truth.
 
