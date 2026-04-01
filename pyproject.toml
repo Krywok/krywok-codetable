@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "krywok-codetable"
-version = "1.0.0"
+version = "1.0.1"
 description = "Krywok Codetable provides centralized, standardized response codes for APIs and applications. It ensures consistency by treating codes as a single source of truth."
 readme = { file = "README.md", content-type = "text/markdown" }
 requires-python = ">=3.12"
