@@ -52,3 +52,26 @@ class Codetable:
             raise RuntimeError("Code instances can only be lazy loaded.")
 
         return lambda: instance.__get__()
+
+    @classmethod
+    def format(cls, result: CodeResult, /, *args, **kwargs) -> CodeResult:
+        """
+        Formats the value template within a CodeResult using provided arguments.
+
+        This method retrieves the template string from the CodeResult and
+        applies standard Python string formatting. It supports both positional 
+        placeholders and named keyword arguments.
+
+        Args:
+            result: The CodeResult containing the value template to format.
+            *args: Variable length argument list for positional placeholders.
+            **kwargs: Arbitrary keyword arguments for named placeholders.
+
+        Returns:
+            The modified CodeResult with the formatted value string.
+        """
+        value_key: str = cls.key_map["value"]
+
+        result[value_key] = result[value_key].format(*args, **kwargs)
+
+        return result
